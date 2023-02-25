@@ -1,0 +1,64 @@
+body {
+    background-image: url(pexels-aleksandar-pasaric-325185.jpg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    justify-self: start;
+    float: left;
+} 
+
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+
+li {
+    float: left;
+    margin-right: 80px;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    color: #8f7878fa;
+    transition: 2s;
+}
+
+li a:hover {
+    transition: 0.8s; 
+    text-decoration: underline;
+    color: #836e6efa;    
+}
+
+.cpp {
+    font-size: 30px;
+    color: #8f7878fa;
+}
+.scpp {
+    color: rgb(94, 80, 56);
+}
+
+.bnt {
+    color: #7e6969fa;
+    font-size: large;
+}
+
+.im {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: large;
+    font-size: 25px;
+    margin: auto;
+}
+
+.spanpp {
+    font-size: 50px;
+}
